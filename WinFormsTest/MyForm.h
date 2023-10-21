@@ -12,7 +12,7 @@ namespace WinFormsTest {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -21,13 +21,13 @@ namespace WinFormsTest {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~MyForm()
 		{
@@ -165,14 +165,14 @@ namespace WinFormsTest {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -337,7 +337,7 @@ namespace WinFormsTest {
 			this->groupBox1->Size = System::Drawing::Size(133, 70);
 			this->groupBox1->TabIndex = 2;
 			this->groupBox1->TabStop = false;
-			this->groupBox1->Text = L"Начальные условия";
+			this->groupBox1->Text = L"ГЌГ Г·Г Г«ГјГ­Г»ГҐ ГіГ±Г«Г®ГўГЁГї";
 			// 
 			// label9
 			// 
@@ -438,17 +438,17 @@ namespace WinFormsTest {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(43, 13);
 			this->label1->TabIndex = 3;
-			this->label1->Text = L"Задача";
+			this->label1->Text = L"Г‡Г Г¤Г Г·Г ";
 			// 
 			// comboBox1
 			// 
 			this->comboBox1->FormattingEnabled = true;
-			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"Тестовая", L"Основная 1", L"Основная 2" });
+			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"Г’ГҐГ±ГІГ®ГўГ Гї", L"ГЋГ±Г­Г®ГўГ­Г Гї 1", L"ГЋГ±Г­Г®ГўГ­Г Гї 2" });
 			this->comboBox1->Location = System::Drawing::Point(12, 36);
 			this->comboBox1->Name = L"comboBox1";
 			this->comboBox1->Size = System::Drawing::Size(133, 21);
 			this->comboBox1->TabIndex = 4;
-			this->comboBox1->Text = L"Тестовая";
+			this->comboBox1->Text = L"Г’ГҐГ±ГІГ®ГўГ Гї";
 			this->comboBox1->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::comboBox1_SelectedIndexChanged);
 			// 
 			// button1
@@ -457,7 +457,7 @@ namespace WinFormsTest {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(133, 23);
 			this->button1->TabIndex = 5;
-			this->button1->Text = L"Вычислить";
+			this->button1->Text = L"Г‚Г»Г·ГЁГ±Г«ГЁГІГј";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
@@ -468,7 +468,7 @@ namespace WinFormsTest {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(148, 13);
 			this->label2->TabIndex = 6;
-			this->label2->Text = L"Контроль лок. погрешности";
+			this->label2->Text = L"ГЉГ®Г­ГІГ°Г®Г«Гј Г«Г®ГЄ. ГЇГ®ГЈГ°ГҐГёГ­Г®Г±ГІГЁ";
 			// 
 			// textBox1
 			// 
@@ -493,7 +493,7 @@ namespace WinFormsTest {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(103, 13);
 			this->label3->TabIndex = 8;
-			this->label3->Text = L"Макс. число шагов";
+			this->label3->Text = L"ГЊГ ГЄГ±. Г·ГЁГ±Г«Г® ГёГ ГЈГ®Гў";
 			// 
 			// textBox3
 			// 
@@ -510,7 +510,7 @@ namespace WinFormsTest {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(86, 13);
 			this->label4->TabIndex = 10;
-			this->label4->Text = L"Начальный шаг";
+			this->label4->Text = L"ГЌГ Г·Г Г«ГјГ­Г»Г© ГёГ ГЈ";
 			// 
 			// groupBox2
 			// 
@@ -523,7 +523,7 @@ namespace WinFormsTest {
 			this->groupBox2->Size = System::Drawing::Size(1302, 161);
 			this->groupBox2->TabIndex = 12;
 			this->groupBox2->TabStop = false;
-			this->groupBox2->Text = L"Справка";
+			this->groupBox2->Text = L"Г‘ГЇГ°Г ГўГЄГ ";
 			// 
 			// richTextBox1
 			// 
@@ -624,7 +624,7 @@ namespace WinFormsTest {
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(152, 13);
 			this->label5->TabIndex = 13;
-			this->label5->Text = L"Точность выхода на границу";
+			this->label5->Text = L"Г’Г®Г·Г­Г®Г±ГІГј ГўГ»ГµГ®Г¤Г  Г­Г  ГЈГ°Г Г­ГЁГ¶Гі";
 			// 
 			// textBox4
 			// 
@@ -810,7 +810,7 @@ namespace WinFormsTest {
 			// 
 			// Column5
 			// 
-			this->Column5->HeaderText = L"ОЛП";
+			this->Column5->HeaderText = L"ГЋГ‹ГЏ";
 			this->Column5->Name = L"Column5";
 			this->Column5->Width = 56;
 			// 
@@ -877,7 +877,7 @@ namespace WinFormsTest {
 			// 
 			// dataGridViewTextBoxColumn6
 			// 
-			this->dataGridViewTextBoxColumn6->HeaderText = L"ОЛП";
+			this->dataGridViewTextBoxColumn6->HeaderText = L"ГЋГ‹ГЏ";
 			this->dataGridViewTextBoxColumn6->Name = L"dataGridViewTextBoxColumn6";
 			this->dataGridViewTextBoxColumn6->Width = 56;
 			// 
@@ -944,7 +944,7 @@ namespace WinFormsTest {
 			// 
 			// dataGridViewTextBoxColumn14
 			// 
-			this->dataGridViewTextBoxColumn14->HeaderText = L"ОЛП";
+			this->dataGridViewTextBoxColumn14->HeaderText = L"ГЋГ‹ГЏ";
 			this->dataGridViewTextBoxColumn14->Name = L"dataGridViewTextBoxColumn14";
 			this->dataGridViewTextBoxColumn14->Width = 56;
 			// 
@@ -990,7 +990,7 @@ namespace WinFormsTest {
 			this->Controls->Add(this->groupBox1);
 			this->Controls->Add(this->chart1);
 			this->Name = L"MyForm";
-			this->Text = L"Лабораторная 1";
+			this->Text = L"Г‹Г ГЎГ®Г°Г ГІГ®Г°Г­Г Гї 1";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart1))->EndInit();
 			this->groupBox1->ResumeLayout(false);
@@ -1044,7 +1044,7 @@ namespace WinFormsTest {
 		label9->Hide();
 		chart2->Hide();
 		chart3->Hide();
-		richTextBox1->Text = "Тестовая задача:\n"+"du/dx = -1 * 3u/2\n" + "U(0) = U0";
+		richTextBox1->Text = "Г’ГҐГ±ГІГ®ГўГ Гї Г§Г Г¤Г Г·Г :\n"+"du/dx = -1 * 3u/2\n" + "U(0) = U0";
 		tabPage4->Text = "U0 = " + checkBox1->Text;
 		tabPage5->Text = "U0 = " + checkBox2->Text;
 		tabControl2->TabPages->Remove(tabPage6);
@@ -1163,10 +1163,10 @@ namespace WinFormsTest {
 					if (hmin == 0) { hmin = hmax; xmin = xmax; }
 
 					richTextBox2->Text = "n = " + i + "\n";
-					richTextBox2->Text += "Число удвоений: " + udvoenie + "\n";
-					richTextBox2->Text += "Число делений: " + delenie + "\n";
-					richTextBox2->Text += "Максимальный шаг: " + hmax + ", при x = " + xmax + "\n";
-					richTextBox2->Text += "Минимальный шаг: " + hmin + ", при x = " + xmin + "\n";
+					richTextBox2->Text += "Г—ГЁГ±Г«Г® ГіГ¤ГўГ®ГҐГ­ГЁГ©: " + udvoenie + "\n";
+					richTextBox2->Text += "Г—ГЁГ±Г«Г® Г¤ГҐГ«ГҐГ­ГЁГ©: " + delenie + "\n";
+					richTextBox2->Text += "ГЊГ ГЄГ±ГЁГ¬Г Г«ГјГ­Г»Г© ГёГ ГЈ: " + hmax + ", ГЇГ°ГЁ x = " + xmax + "\n";
+					richTextBox2->Text += "ГЊГЁГ­ГЁГ¬Г Г«ГјГ­Г»Г© ГёГ ГЈ: " + hmin + ", ГЇГ°ГЁ x = " + xmin + "\n";
 				};
 
 				
@@ -1253,10 +1253,10 @@ namespace WinFormsTest {
 					if (hmin == 0) { hmin = hmax; xmin = xmax; }
 
 					richTextBox3->Text = "n = " + i + "\n";
-					richTextBox3->Text += "Число удвоений: " + udvoenie + "\n";
-					richTextBox3->Text += "Число делений: " + delenie + "\n";
-					richTextBox3->Text += "Максимальный шаг: " + hmax + ", при x = " + xmax + "\n";
-					richTextBox3->Text += "Минимальный шаг: " + hmin + ", при x = " + xmin + "\n";
+					richTextBox3->Text += "Г—ГЁГ±Г«Г® ГіГ¤ГўГ®ГҐГ­ГЁГ©: " + udvoenie + "\n";
+					richTextBox3->Text += "Г—ГЁГ±Г«Г® Г¤ГҐГ«ГҐГ­ГЁГ©: " + delenie + "\n";
+					richTextBox3->Text += "ГЊГ ГЄГ±ГЁГ¬Г Г«ГјГ­Г»Г© ГёГ ГЈ: " + hmax + ", ГЇГ°ГЁ x = " + xmax + "\n";
+					richTextBox3->Text += "ГЊГЁГ­ГЁГ¬Г Г«ГјГ­Г»Г© ГёГ ГЈ: " + hmin + ", ГЇГ°ГЁ x = " + xmin + "\n";
 				};
 
 				
@@ -1345,10 +1345,10 @@ namespace WinFormsTest {
 					if (hmin == 0) { hmin = hmax; xmin = xmax; }
 
 					richTextBox2->Text = "n = " + i + "\n";
-					richTextBox2->Text += "Число удвоений: " + udvoenie + "\n";
-					richTextBox2->Text += "Число делений: " + delenie + "\n";
-					richTextBox2->Text += "Максимальный шаг: " + hmax + ", при x = " + xmax + "\n";
-					richTextBox2->Text += "Минимальный шаг: " + hmin + ", при x = " + xmin + "\n";
+					richTextBox2->Text += "Г—ГЁГ±Г«Г® ГіГ¤ГўГ®ГҐГ­ГЁГ©: " + udvoenie + "\n";
+					richTextBox2->Text += "Г—ГЁГ±Г«Г® Г¤ГҐГ«ГҐГ­ГЁГ©: " + delenie + "\n";
+					richTextBox2->Text += "ГЊГ ГЄГ±ГЁГ¬Г Г«ГјГ­Г»Г© ГёГ ГЈ: " + hmax + ", ГЇГ°ГЁ x = " + xmax + "\n";
+					richTextBox2->Text += "ГЊГЁГ­ГЁГ¬Г Г«ГјГ­Г»Г© ГёГ ГЈ: " + hmin + ", ГЇГ°ГЁ x = " + xmin + "\n";
 				};
 
 
@@ -1428,10 +1428,10 @@ namespace WinFormsTest {
 					if (hmin == 0) { hmin = hmax; xmin = xmax; }
 
 					richTextBox3->Text = "n = " + i + "\n";
-					richTextBox3->Text += "Число удвоений: " + udvoenie + "\n";
-					richTextBox3->Text += "Число делений: " + delenie + "\n";
-					richTextBox3->Text += "Максимальный шаг: " + hmax + ", при x = " + xmax + "\n";
-					richTextBox3->Text += "Минимальный шаг: " + hmin + ", при x = " + xmin + "\n";
+					richTextBox3->Text += "Г—ГЁГ±Г«Г® ГіГ¤ГўГ®ГҐГ­ГЁГ©: " + udvoenie + "\n";
+					richTextBox3->Text += "Г—ГЁГ±Г«Г® Г¤ГҐГ«ГҐГ­ГЁГ©: " + delenie + "\n";
+					richTextBox3->Text += "ГЊГ ГЄГ±ГЁГ¬Г Г«ГјГ­Г»Г© ГёГ ГЈ: " + hmax + ", ГЇГ°ГЁ x = " + xmax + "\n";
+					richTextBox3->Text += "ГЊГЁГ­ГЁГ¬Г Г«ГјГ­Г»Г© ГёГ ГЈ: " + hmin + ", ГЇГ°ГЁ x = " + xmin + "\n";
 				};
 
 
@@ -1511,14 +1511,15 @@ namespace WinFormsTest {
 					if (hmin == 0) { hmin = hmax; xmin = xmax; }
 
 					richTextBox4->Text = "n = " + i + "\n";
-					richTextBox4->Text += "Число удвоений: " + udvoenie + "\n";
-					richTextBox4->Text += "Число делений: " + delenie + "\n";
-					richTextBox4->Text += "Максимальный шаг: " + hmax + ", при x = " + xmax + "\n";
-					richTextBox4->Text += "Минимальный шаг: " + hmin + ", при x = " + xmin + "\n";
+					richTextBox4->Text += "Г—ГЁГ±Г«Г® ГіГ¤ГўГ®ГҐГ­ГЁГ©: " + udvoenie + "\n";
+					richTextBox4->Text += "Г—ГЁГ±Г«Г® Г¤ГҐГ«ГҐГ­ГЁГ©: " + delenie + "\n";
+					richTextBox4->Text += "ГЊГ ГЄГ±ГЁГ¬Г Г«ГјГ­Г»Г© ГёГ ГЈ: " + hmax + ", ГЇГ°ГЁ x = " + xmax + "\n";
+					richTextBox4->Text += "ГЊГЁГ­ГЁГ¬Г Г«ГјГ­Г»Г© ГёГ ГЈ: " + hmin + ", ГЇГ°ГЁ x = " + xmin + "\n";
 				};
 
 			}
-			break;
+			else
+				break;
 
 
 			case 2:
@@ -1620,10 +1621,10 @@ namespace WinFormsTest {
 						if (hmin == 0) { hmin = hmax; xmin = xmax; }
 
 						richTextBox2->Text = "n = " + i + "\n";
-						richTextBox2->Text += "Число удвоений: " + udvoenie + "\n";
-						richTextBox2->Text += "Число делений: " + delenie + "\n";
-						richTextBox2->Text += "Максимальный шаг: " + hmax + ", при x = " + xmax + "\n";
-						richTextBox2->Text += "Минимальный шаг: " + hmin + ", при x = " + xmin + "\n";
+						richTextBox2->Text += "Г—ГЁГ±Г«Г® ГіГ¤ГўГ®ГҐГ­ГЁГ©: " + udvoenie + "\n";
+						richTextBox2->Text += "Г—ГЁГ±Г«Г® Г¤ГҐГ«ГҐГ­ГЁГ©: " + delenie + "\n";
+						richTextBox2->Text += "ГЊГ ГЄГ±ГЁГ¬Г Г«ГјГ­Г»Г© ГёГ ГЈ: " + hmax + ", ГЇГ°ГЁ x = " + xmax + "\n";
+						richTextBox2->Text += "ГЊГЁГ­ГЁГ¬Г Г«ГјГ­Г»Г© ГёГ ГЈ: " + hmin + ", ГЇГ°ГЁ x = " + xmin + "\n";
 					};
 
 
@@ -1660,7 +1661,7 @@ private: System::Void comboBox1_SelectedIndexChanged(System::Object^ sender, Sys
 		label7->Hide();
 		label8->Hide();
 		label9->Hide();
-		richTextBox1->Text = "Тестовая задача:\n" + "du/dx = -1 * 3u/2\n" + "U(0) = U0";
+		richTextBox1->Text = "Г’ГҐГ±ГІГ®ГўГ Гї Г§Г Г¤Г Г·Г :\n" + "du/dx = -1 * 3u/2\n" + "U(0) = U0";
 		dataGridView2->Rows->Clear();
 		dataGridView1->Rows->Clear();
 		tabPage4->Text = "U0 = " + checkBox1->Text;
@@ -1689,7 +1690,7 @@ private: System::Void comboBox1_SelectedIndexChanged(System::Object^ sender, Sys
 		label7->Hide();
 		label8->Hide();
 		label9->Hide();
-		richTextBox1->Text = "Основная задача 1:\n" + "du/dx = u^2 / (1+x^2)^(1/3) + u - u^3 * sin(10x)\n" + "U(0) = U0";
+		richTextBox1->Text = "ГЋГ±Г­Г®ГўГ­Г Гї Г§Г Г¤Г Г·Г  1:\n" + "du/dx = u^2 / (1+x^2)^(1/3) + u - u^3 * sin(10x)\n" + "U(0) = U0";
 		dataGridView2->Rows->Clear();
 		dataGridView1->Rows->Clear();
 		tabPage4->Text = "U0 = " + checkBox1->Text;
@@ -1724,7 +1725,7 @@ private: System::Void comboBox1_SelectedIndexChanged(System::Object^ sender, Sys
 		label7->Show();
 		label8->Show();
 		label9->Show();
-		richTextBox1->Text = "Основная задача 2:\n" + "d^2u/dx^2 + a(du/dx)^2 + bu = 0\n" + "U(0) = U0\n" + "U'(0) = U'0";
+		richTextBox1->Text = "ГЋГ±Г­Г®ГўГ­Г Гї Г§Г Г¤Г Г·Г  2:\n" + "d^2u/dx^2 + a(du/dx)^2 + bu = 0\n" + "U(0) = U0\n" + "U'(0) = U'0";
 
 	}
 
