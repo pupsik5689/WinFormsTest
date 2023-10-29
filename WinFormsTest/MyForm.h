@@ -12,7 +12,7 @@ namespace WinFormsTest {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// РЎРІРѕРґРєР° РґР»СЏ MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -21,13 +21,13 @@ namespace WinFormsTest {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: РґРѕР±Р°РІСЊС‚Рµ РєРѕРґ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// РћСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
 		/// </summary>
 		~MyForm()
 		{
@@ -165,30 +165,30 @@ namespace WinFormsTest {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// РћР±СЏР·Р°С‚РµР»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// РўСЂРµР±СѓРµРјС‹Р№ РјРµС‚РѕРґ РґР»СЏ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° вЂ” РЅРµ РёР·РјРµРЅСЏР№С‚Рµ 
+		/// СЃРѕРґРµСЂР¶РёРјРѕРµ СЌС‚РѕРіРѕ РјРµС‚РѕРґР° СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			System::Windows::Forms::DataVisualization::Charting::ChartArea^ chartArea4 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
-			System::Windows::Forms::DataVisualization::Charting::Legend^ legend4 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
-			System::Windows::Forms::DataVisualization::Charting::Series^ series8 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
-			System::Windows::Forms::DataVisualization::Charting::Series^ series9 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
-			System::Windows::Forms::DataVisualization::Charting::Series^ series10 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
-			System::Windows::Forms::DataVisualization::Charting::ChartArea^ chartArea5 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
-			System::Windows::Forms::DataVisualization::Charting::Legend^ legend5 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
-			System::Windows::Forms::DataVisualization::Charting::Series^ series11 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
-			System::Windows::Forms::DataVisualization::Charting::ChartArea^ chartArea6 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
-			System::Windows::Forms::DataVisualization::Charting::Legend^ legend6 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
-			System::Windows::Forms::DataVisualization::Charting::Series^ series12 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
-			System::Windows::Forms::DataVisualization::Charting::Series^ series13 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
-			System::Windows::Forms::DataVisualization::Charting::Series^ series14 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
+			System::Windows::Forms::DataVisualization::Charting::ChartArea^ chartArea1 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
+			System::Windows::Forms::DataVisualization::Charting::Legend^ legend1 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
+			System::Windows::Forms::DataVisualization::Charting::Series^ series1 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
+			System::Windows::Forms::DataVisualization::Charting::Series^ series2 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
+			System::Windows::Forms::DataVisualization::Charting::Series^ series3 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
+			System::Windows::Forms::DataVisualization::Charting::ChartArea^ chartArea2 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
+			System::Windows::Forms::DataVisualization::Charting::Legend^ legend2 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
+			System::Windows::Forms::DataVisualization::Charting::Series^ series4 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
+			System::Windows::Forms::DataVisualization::Charting::ChartArea^ chartArea3 = (gcnew System::Windows::Forms::DataVisualization::Charting::ChartArea());
+			System::Windows::Forms::DataVisualization::Charting::Legend^ legend3 = (gcnew System::Windows::Forms::DataVisualization::Charting::Legend());
+			System::Windows::Forms::DataVisualization::Charting::Series^ series5 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
+			System::Windows::Forms::DataVisualization::Charting::Series^ series6 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
+			System::Windows::Forms::DataVisualization::Charting::Series^ series7 = (gcnew System::Windows::Forms::DataVisualization::Charting::Series());
 			this->chart1 = (gcnew System::Windows::Forms::DataVisualization::Charting::Chart());
 			this->groupBox1 = (gcnew System::Windows::Forms::GroupBox());
 			this->label9 = (gcnew System::Windows::Forms::Label());
@@ -228,8 +228,6 @@ namespace WinFormsTest {
 			this->tabControl2 = (gcnew System::Windows::Forms::TabControl());
 			this->tabPage4 = (gcnew System::Windows::Forms::TabPage());
 			this->dataGridView1 = (gcnew System::Windows::Forms::DataGridView());
-			this->tabPage5 = (gcnew System::Windows::Forms::TabPage());
-			this->tabPage6 = (gcnew System::Windows::Forms::TabPage());
 			this->Column1 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->Column9 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->Column2 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
@@ -239,6 +237,7 @@ namespace WinFormsTest {
 			this->Column6 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->Column7 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->Column8 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+			this->tabPage5 = (gcnew System::Windows::Forms::TabPage());
 			this->dataGridView2 = (gcnew System::Windows::Forms::DataGridView());
 			this->dataGridViewTextBoxColumn1 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->dataGridViewTextBoxColumn2 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
@@ -249,6 +248,7 @@ namespace WinFormsTest {
 			this->dataGridViewTextBoxColumn7 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->dataGridViewTextBoxColumn8 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->dataGridViewTextBoxColumn17 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
+			this->tabPage6 = (gcnew System::Windows::Forms::TabPage());
 			this->dataGridView3 = (gcnew System::Windows::Forms::DataGridView());
 			this->dataGridViewTextBoxColumn9 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
 			this->dataGridViewTextBoxColumn10 = (gcnew System::Windows::Forms::DataGridViewTextBoxColumn());
@@ -272,50 +272,51 @@ namespace WinFormsTest {
 			this->tabPage4->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->BeginInit();
 			this->tabPage5->SuspendLayout();
-			this->tabPage6->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView2))->BeginInit();
+			this->tabPage6->SuspendLayout();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView3))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// chart1
 			// 
-			this->chart1->Anchor = static_cast<System::Windows::Forms::AnchorStyles>(((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left));
+			this->chart1->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
 			this->chart1->BorderlineColor = System::Drawing::Color::Black;
 			this->chart1->BorderlineDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Solid;
-			chartArea4->AxisX->ArrowStyle = System::Windows::Forms::DataVisualization::Charting::AxisArrowStyle::Triangle;
-			chartArea4->AxisX->Interval = 0.05;
-			chartArea4->AxisX->MajorGrid->LineDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Dot;
-			chartArea4->AxisX->Maximum = 1;
-			chartArea4->AxisX->Minimum = 0;
-			chartArea4->AxisX->Title = L"X";
-			chartArea4->AxisX2->MajorTickMark->LineDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Dot;
-			chartArea4->AxisY->ArrowStyle = System::Windows::Forms::DataVisualization::Charting::AxisArrowStyle::Triangle;
-			chartArea4->AxisY->MajorGrid->LineDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Dot;
-			chartArea4->AxisY->Title = L"U";
-			chartArea4->Name = L"ChartArea1";
-			this->chart1->ChartAreas->Add(chartArea4);
+			chartArea1->AxisX->ArrowStyle = System::Windows::Forms::DataVisualization::Charting::AxisArrowStyle::Triangle;
+			chartArea1->AxisX->Interval = 0.05;
+			chartArea1->AxisX->MajorGrid->LineDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Dot;
+			chartArea1->AxisX->Maximum = 1;
+			chartArea1->AxisX->Minimum = 0;
+			chartArea1->AxisX->Title = L"X";
+			chartArea1->AxisX2->MajorTickMark->LineDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Dot;
+			chartArea1->AxisY->ArrowStyle = System::Windows::Forms::DataVisualization::Charting::AxisArrowStyle::Triangle;
+			chartArea1->AxisY->MajorGrid->LineDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Dot;
+			chartArea1->AxisY->Title = L"U";
+			chartArea1->Name = L"ChartArea1";
+			this->chart1->ChartAreas->Add(chartArea1);
 			this->chart1->ImeMode = System::Windows::Forms::ImeMode::On;
-			legend4->Docking = System::Windows::Forms::DataVisualization::Charting::Docking::Bottom;
-			legend4->Name = L"Legend1";
-			this->chart1->Legends->Add(legend4);
+			legend1->Docking = System::Windows::Forms::DataVisualization::Charting::Docking::Bottom;
+			legend1->Name = L"Legend1";
+			this->chart1->Legends->Add(legend1);
 			this->chart1->Location = System::Drawing::Point(388, 186);
 			this->chart1->Name = L"chart1";
-			series8->ChartArea = L"ChartArea1";
-			series8->ChartType = System::Windows::Forms::DataVisualization::Charting::SeriesChartType::Line;
-			series8->Legend = L"Legend1";
-			series8->Name = L"Series1";
-			series9->ChartArea = L"ChartArea1";
-			series9->ChartType = System::Windows::Forms::DataVisualization::Charting::SeriesChartType::Line;
-			series9->Legend = L"Legend1";
-			series9->Name = L"Series2";
-			series10->ChartArea = L"ChartArea1";
-			series10->ChartType = System::Windows::Forms::DataVisualization::Charting::SeriesChartType::Line;
-			series10->Legend = L"Legend1";
-			series10->Name = L"Series3";
-			this->chart1->Series->Add(series8);
-			this->chart1->Series->Add(series9);
-			this->chart1->Series->Add(series10);
+			series1->ChartArea = L"ChartArea1";
+			series1->ChartType = System::Windows::Forms::DataVisualization::Charting::SeriesChartType::Line;
+			series1->Legend = L"Legend1";
+			series1->Name = L"Series1";
+			series2->ChartArea = L"ChartArea1";
+			series2->ChartType = System::Windows::Forms::DataVisualization::Charting::SeriesChartType::Line;
+			series2->Legend = L"Legend1";
+			series2->Name = L"Series2";
+			series3->ChartArea = L"ChartArea1";
+			series3->ChartType = System::Windows::Forms::DataVisualization::Charting::SeriesChartType::Line;
+			series3->Legend = L"Legend1";
+			series3->Name = L"Series3";
+			this->chart1->Series->Add(series1);
+			this->chart1->Series->Add(series2);
+			this->chart1->Series->Add(series3);
 			this->chart1->Size = System::Drawing::Size(429, 464);
 			this->chart1->TabIndex = 1;
 			this->chart1->Text = L"chart1";
@@ -337,7 +338,7 @@ namespace WinFormsTest {
 			this->groupBox1->Size = System::Drawing::Size(133, 70);
 			this->groupBox1->TabIndex = 2;
 			this->groupBox1->TabStop = false;
-			this->groupBox1->Text = L"Начальные условия";
+			this->groupBox1->Text = L"РќР°С‡Р°Р»СЊРЅС‹Рµ СѓСЃР»РѕРІРёСЏ";
 			// 
 			// label9
 			// 
@@ -438,17 +439,17 @@ namespace WinFormsTest {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(43, 13);
 			this->label1->TabIndex = 3;
-			this->label1->Text = L"Задача";
+			this->label1->Text = L"Р—Р°РґР°С‡Р°";
 			// 
 			// comboBox1
 			// 
 			this->comboBox1->FormattingEnabled = true;
-			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"Тестовая", L"Основная 1", L"Основная 2" });
+			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(3) { L"РўРµСЃС‚РѕРІР°СЏ", L"РћСЃРЅРѕРІРЅР°СЏ 1", L"РћСЃРЅРѕРІРЅР°СЏ 2" });
 			this->comboBox1->Location = System::Drawing::Point(12, 36);
 			this->comboBox1->Name = L"comboBox1";
 			this->comboBox1->Size = System::Drawing::Size(133, 21);
 			this->comboBox1->TabIndex = 4;
-			this->comboBox1->Text = L"Тестовая";
+			this->comboBox1->Text = L"РўРµСЃС‚РѕРІР°СЏ";
 			this->comboBox1->SelectedIndexChanged += gcnew System::EventHandler(this, &MyForm::comboBox1_SelectedIndexChanged);
 			// 
 			// button1
@@ -457,7 +458,7 @@ namespace WinFormsTest {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(133, 23);
 			this->button1->TabIndex = 5;
-			this->button1->Text = L"Вычислить";
+			this->button1->Text = L"Р’С‹С‡РёСЃР»РёС‚СЊ";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
@@ -468,7 +469,7 @@ namespace WinFormsTest {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(148, 13);
 			this->label2->TabIndex = 6;
-			this->label2->Text = L"Контроль лок. погрешности";
+			this->label2->Text = L"РљРѕРЅС‚СЂРѕР»СЊ Р»РѕРє. РїРѕРіСЂРµС€РЅРѕСЃС‚Рё";
 			// 
 			// textBox1
 			// 
@@ -493,7 +494,7 @@ namespace WinFormsTest {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(103, 13);
 			this->label3->TabIndex = 8;
-			this->label3->Text = L"Макс. число шагов";
+			this->label3->Text = L"РњР°РєСЃ. С‡РёСЃР»Рѕ С€Р°РіРѕРІ";
 			// 
 			// textBox3
 			// 
@@ -510,7 +511,7 @@ namespace WinFormsTest {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(86, 13);
 			this->label4->TabIndex = 10;
-			this->label4->Text = L"Начальный шаг";
+			this->label4->Text = L"РќР°С‡Р°Р»СЊРЅС‹Р№ С€Р°Рі";
 			// 
 			// groupBox2
 			// 
@@ -523,7 +524,7 @@ namespace WinFormsTest {
 			this->groupBox2->Size = System::Drawing::Size(1302, 161);
 			this->groupBox2->TabIndex = 12;
 			this->groupBox2->TabStop = false;
-			this->groupBox2->Text = L"Справка";
+			this->groupBox2->Text = L"РЎРїСЂР°РІРєР°";
 			// 
 			// richTextBox1
 			// 
@@ -624,7 +625,7 @@ namespace WinFormsTest {
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(152, 13);
 			this->label5->TabIndex = 13;
-			this->label5->Text = L"Точность выхода на границу";
+			this->label5->Text = L"РўРѕС‡РЅРѕСЃС‚СЊ РІС‹С…РѕРґР° РЅР° РіСЂР°РЅРёС†Сѓ";
 			// 
 			// textBox4
 			// 
@@ -644,80 +645,82 @@ namespace WinFormsTest {
 			// 
 			// chart2
 			// 
-			this->chart2->Anchor = static_cast<System::Windows::Forms::AnchorStyles>(((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left));
+			this->chart2->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
 			this->chart2->BorderlineColor = System::Drawing::Color::Black;
 			this->chart2->BorderlineDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Solid;
-			chartArea5->AxisX->ArrowStyle = System::Windows::Forms::DataVisualization::Charting::AxisArrowStyle::Triangle;
-			chartArea5->AxisX->MajorGrid->LineDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Dot;
-			chartArea5->AxisX->Maximum = 2;
-			chartArea5->AxisX->Minimum = 0;
-			chartArea5->AxisX->TextOrientation = System::Windows::Forms::DataVisualization::Charting::TextOrientation::Horizontal;
-			chartArea5->AxisX->Title = L"U";
-			chartArea5->AxisX2->MajorGrid->LineDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Dot;
-			chartArea5->AxisX2->MajorTickMark->LineDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Dot;
-			chartArea5->AxisX2->MinorGrid->LineDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Dot;
-			chartArea5->AxisX2->MinorTickMark->LineDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Dot;
-			chartArea5->AxisY->ArrowStyle = System::Windows::Forms::DataVisualization::Charting::AxisArrowStyle::Triangle;
-			chartArea5->AxisY->MajorGrid->LineDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Dot;
-			chartArea5->AxisY->Title = L"U\'";
-			chartArea5->BorderDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Solid;
-			chartArea5->Name = L"ChartArea1";
-			this->chart2->ChartAreas->Add(chartArea5);
+			chartArea2->AxisX->ArrowStyle = System::Windows::Forms::DataVisualization::Charting::AxisArrowStyle::Triangle;
+			chartArea2->AxisX->MajorGrid->LineDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Dot;
+			chartArea2->AxisX->Maximum = 2;
+			chartArea2->AxisX->Minimum = 0;
+			chartArea2->AxisX->TextOrientation = System::Windows::Forms::DataVisualization::Charting::TextOrientation::Horizontal;
+			chartArea2->AxisX->Title = L"U";
+			chartArea2->AxisX2->MajorGrid->LineDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Dot;
+			chartArea2->AxisX2->MajorTickMark->LineDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Dot;
+			chartArea2->AxisX2->MinorGrid->LineDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Dot;
+			chartArea2->AxisX2->MinorTickMark->LineDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Dot;
+			chartArea2->AxisY->ArrowStyle = System::Windows::Forms::DataVisualization::Charting::AxisArrowStyle::Triangle;
+			chartArea2->AxisY->MajorGrid->LineDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Dot;
+			chartArea2->AxisY->Title = L"U\'";
+			chartArea2->BorderDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Solid;
+			chartArea2->Name = L"ChartArea1";
+			this->chart2->ChartAreas->Add(chartArea2);
 			this->chart2->ImeMode = System::Windows::Forms::ImeMode::Off;
-			legend5->Docking = System::Windows::Forms::DataVisualization::Charting::Docking::Bottom;
-			legend5->Name = L"Legend1";
-			this->chart2->Legends->Add(legend5);
+			legend2->Docking = System::Windows::Forms::DataVisualization::Charting::Docking::Bottom;
+			legend2->Name = L"Legend1";
+			this->chart2->Legends->Add(legend2);
 			this->chart2->Location = System::Drawing::Point(823, 186);
 			this->chart2->Name = L"chart2";
-			series11->ChartArea = L"ChartArea1";
-			series11->ChartType = System::Windows::Forms::DataVisualization::Charting::SeriesChartType::Line;
-			series11->Legend = L"Legend1";
-			series11->Name = L"Series1";
-			this->chart2->Series->Add(series11);
+			series4->ChartArea = L"ChartArea1";
+			series4->ChartType = System::Windows::Forms::DataVisualization::Charting::SeriesChartType::Line;
+			series4->Legend = L"Legend1";
+			series4->Name = L"Series1";
+			this->chart2->Series->Add(series4);
 			this->chart2->Size = System::Drawing::Size(428, 464);
 			this->chart2->TabIndex = 17;
 			this->chart2->Text = L"chart2";
 			// 
 			// chart3
 			// 
-			this->chart3->Anchor = static_cast<System::Windows::Forms::AnchorStyles>(((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
-				| System::Windows::Forms::AnchorStyles::Left));
+			this->chart3->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Bottom)
+				| System::Windows::Forms::AnchorStyles::Left)
+				| System::Windows::Forms::AnchorStyles::Right));
 			this->chart3->BorderlineColor = System::Drawing::Color::Black;
 			this->chart3->BorderlineDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Solid;
-			chartArea6->AxisX->ArrowStyle = System::Windows::Forms::DataVisualization::Charting::AxisArrowStyle::Triangle;
-			chartArea6->AxisX->Interval = 0.05;
-			chartArea6->AxisX->MajorGrid->LineDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Dot;
-			chartArea6->AxisX->Maximum = 1;
-			chartArea6->AxisX->Minimum = 0;
-			chartArea6->AxisX->Title = L"X";
-			chartArea6->AxisX2->MajorTickMark->LineDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Dot;
-			chartArea6->AxisY->ArrowStyle = System::Windows::Forms::DataVisualization::Charting::AxisArrowStyle::Triangle;
-			chartArea6->AxisY->MajorGrid->LineDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Dot;
-			chartArea6->AxisY->Title = L"u\'";
-			chartArea6->Name = L"ChartArea1";
-			this->chart3->ChartAreas->Add(chartArea6);
+			chartArea3->AxisX->ArrowStyle = System::Windows::Forms::DataVisualization::Charting::AxisArrowStyle::Triangle;
+			chartArea3->AxisX->Interval = 0.05;
+			chartArea3->AxisX->MajorGrid->LineDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Dot;
+			chartArea3->AxisX->Maximum = 1;
+			chartArea3->AxisX->Minimum = 0;
+			chartArea3->AxisX->Title = L"X";
+			chartArea3->AxisX2->MajorTickMark->LineDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Dot;
+			chartArea3->AxisY->ArrowStyle = System::Windows::Forms::DataVisualization::Charting::AxisArrowStyle::Triangle;
+			chartArea3->AxisY->MajorGrid->LineDashStyle = System::Windows::Forms::DataVisualization::Charting::ChartDashStyle::Dot;
+			chartArea3->AxisY->Title = L"u\'";
+			chartArea3->Name = L"ChartArea1";
+			this->chart3->ChartAreas->Add(chartArea3);
 			this->chart3->ImeMode = System::Windows::Forms::ImeMode::On;
-			legend6->Docking = System::Windows::Forms::DataVisualization::Charting::Docking::Bottom;
-			legend6->Name = L"Legend1";
-			this->chart3->Legends->Add(legend6);
+			legend3->Docking = System::Windows::Forms::DataVisualization::Charting::Docking::Bottom;
+			legend3->Name = L"Legend1";
+			this->chart3->Legends->Add(legend3);
 			this->chart3->Location = System::Drawing::Point(1257, 186);
 			this->chart3->Name = L"chart3";
-			series12->ChartArea = L"ChartArea1";
-			series12->ChartType = System::Windows::Forms::DataVisualization::Charting::SeriesChartType::Line;
-			series12->Legend = L"Legend1";
-			series12->Name = L"Series1";
-			series13->ChartArea = L"ChartArea1";
-			series13->ChartType = System::Windows::Forms::DataVisualization::Charting::SeriesChartType::Line;
-			series13->Legend = L"Legend1";
-			series13->Name = L"Series2";
-			series14->ChartArea = L"ChartArea1";
-			series14->ChartType = System::Windows::Forms::DataVisualization::Charting::SeriesChartType::Line;
-			series14->Legend = L"Legend1";
-			series14->Name = L"Series3";
-			this->chart3->Series->Add(series12);
-			this->chart3->Series->Add(series13);
-			this->chart3->Series->Add(series14);
+			series5->ChartArea = L"ChartArea1";
+			series5->ChartType = System::Windows::Forms::DataVisualization::Charting::SeriesChartType::Line;
+			series5->Legend = L"Legend1";
+			series5->Name = L"Series1";
+			series6->ChartArea = L"ChartArea1";
+			series6->ChartType = System::Windows::Forms::DataVisualization::Charting::SeriesChartType::Line;
+			series6->Legend = L"Legend1";
+			series6->Name = L"Series2";
+			series7->ChartArea = L"ChartArea1";
+			series7->ChartType = System::Windows::Forms::DataVisualization::Charting::SeriesChartType::Line;
+			series7->Legend = L"Legend1";
+			series7->Name = L"Series3";
+			this->chart3->Series->Add(series5);
+			this->chart3->Series->Add(series6);
+			this->chart3->Series->Add(series7);
 			this->chart3->Size = System::Drawing::Size(429, 464);
 			this->chart3->TabIndex = 18;
 			this->chart3->Text = L"chart3";
@@ -756,28 +759,6 @@ namespace WinFormsTest {
 			this->dataGridView1->Size = System::Drawing::Size(339, 426);
 			this->dataGridView1->TabIndex = 0;
 			// 
-			// tabPage5
-			// 
-			this->tabPage5->Controls->Add(this->dataGridView2);
-			this->tabPage5->Location = System::Drawing::Point(4, 22);
-			this->tabPage5->Name = L"tabPage5";
-			this->tabPage5->Padding = System::Windows::Forms::Padding(3);
-			this->tabPage5->Size = System::Drawing::Size(351, 438);
-			this->tabPage5->TabIndex = 1;
-			this->tabPage5->Text = L"tabPage5";
-			this->tabPage5->UseVisualStyleBackColor = true;
-			// 
-			// tabPage6
-			// 
-			this->tabPage6->Controls->Add(this->dataGridView3);
-			this->tabPage6->Location = System::Drawing::Point(4, 22);
-			this->tabPage6->Name = L"tabPage6";
-			this->tabPage6->Padding = System::Windows::Forms::Padding(3);
-			this->tabPage6->Size = System::Drawing::Size(351, 438);
-			this->tabPage6->TabIndex = 2;
-			this->tabPage6->Text = L"tabPage6";
-			this->tabPage6->UseVisualStyleBackColor = true;
-			// 
 			// Column1
 			// 
 			this->Column1->HeaderText = L"i";
@@ -810,7 +791,7 @@ namespace WinFormsTest {
 			// 
 			// Column5
 			// 
-			this->Column5->HeaderText = L"ОЛП";
+			this->Column5->HeaderText = L"РћР›Рџ";
 			this->Column5->Name = L"Column5";
 			this->Column5->Width = 56;
 			// 
@@ -831,6 +812,17 @@ namespace WinFormsTest {
 			this->Column8->HeaderText = L"C2";
 			this->Column8->Name = L"Column8";
 			this->Column8->Width = 45;
+			// 
+			// tabPage5
+			// 
+			this->tabPage5->Controls->Add(this->dataGridView2);
+			this->tabPage5->Location = System::Drawing::Point(4, 22);
+			this->tabPage5->Name = L"tabPage5";
+			this->tabPage5->Padding = System::Windows::Forms::Padding(3);
+			this->tabPage5->Size = System::Drawing::Size(351, 438);
+			this->tabPage5->TabIndex = 1;
+			this->tabPage5->Text = L"tabPage5";
+			this->tabPage5->UseVisualStyleBackColor = true;
 			// 
 			// dataGridView2
 			// 
@@ -877,7 +869,7 @@ namespace WinFormsTest {
 			// 
 			// dataGridViewTextBoxColumn6
 			// 
-			this->dataGridViewTextBoxColumn6->HeaderText = L"ОЛП";
+			this->dataGridViewTextBoxColumn6->HeaderText = L"РћР›Рџ";
 			this->dataGridViewTextBoxColumn6->Name = L"dataGridViewTextBoxColumn6";
 			this->dataGridViewTextBoxColumn6->Width = 56;
 			// 
@@ -898,6 +890,17 @@ namespace WinFormsTest {
 			this->dataGridViewTextBoxColumn17->HeaderText = L"C2";
 			this->dataGridViewTextBoxColumn17->Name = L"dataGridViewTextBoxColumn17";
 			this->dataGridViewTextBoxColumn17->Width = 45;
+			// 
+			// tabPage6
+			// 
+			this->tabPage6->Controls->Add(this->dataGridView3);
+			this->tabPage6->Location = System::Drawing::Point(4, 22);
+			this->tabPage6->Name = L"tabPage6";
+			this->tabPage6->Padding = System::Windows::Forms::Padding(3);
+			this->tabPage6->Size = System::Drawing::Size(351, 438);
+			this->tabPage6->TabIndex = 2;
+			this->tabPage6->Text = L"tabPage6";
+			this->tabPage6->UseVisualStyleBackColor = true;
 			// 
 			// dataGridView3
 			// 
@@ -944,7 +947,7 @@ namespace WinFormsTest {
 			// 
 			// dataGridViewTextBoxColumn14
 			// 
-			this->dataGridViewTextBoxColumn14->HeaderText = L"ОЛП";
+			this->dataGridViewTextBoxColumn14->HeaderText = L"РћР›Рџ";
 			this->dataGridViewTextBoxColumn14->Name = L"dataGridViewTextBoxColumn14";
 			this->dataGridViewTextBoxColumn14->Width = 56;
 			// 
@@ -970,7 +973,7 @@ namespace WinFormsTest {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1702, 662);
+			this->ClientSize = System::Drawing::Size(1702, 800);
 			this->Controls->Add(this->tabControl2);
 			this->Controls->Add(this->chart3);
 			this->Controls->Add(this->chart2);
@@ -990,7 +993,7 @@ namespace WinFormsTest {
 			this->Controls->Add(this->groupBox1);
 			this->Controls->Add(this->chart1);
 			this->Name = L"MyForm";
-			this->Text = L"Лабораторная 1";
+			this->Text = L"Р›Р°Р±РѕСЂР°С‚РѕСЂРЅР°СЏ 1";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->chart1))->EndInit();
 			this->groupBox1->ResumeLayout(false);
@@ -1006,8 +1009,8 @@ namespace WinFormsTest {
 			this->tabPage4->ResumeLayout(false);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->EndInit();
 			this->tabPage5->ResumeLayout(false);
-			this->tabPage6->ResumeLayout(false);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView2))->EndInit();
+			this->tabPage6->ResumeLayout(false);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView3))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
@@ -1044,13 +1047,17 @@ namespace WinFormsTest {
 		label9->Hide();
 		chart2->Hide();
 		chart3->Hide();
-		richTextBox1->Text = "Тестовая задача:\n"+"du/dx = -1 * 3u/2\n" + "U(0) = U0";
+		richTextBox1->Text = "РўРµСЃС‚РѕРІР°СЏ Р·Р°РґР°С‡Р°:\n"+"du/dx = -1 * 3u/2\n" + "U(0) = U0";
 		tabPage4->Text = "U0 = " + checkBox1->Text;
 		tabPage5->Text = "U0 = " + checkBox2->Text;
 		tabControl2->TabPages->Remove(tabPage6);
 		tabControl2->TabPages->Remove(tabPage5);
 		tabControl2->TabPages->Remove(tabPage4);
 
+		chart1->Series[0]->LegendText = "U0 = " + checkBox1->Text;
+		chart1->Series[1]->LegendText = "U0 = " + checkBox2->Text;
+
+		chart1->Series[2]->IsVisibleInLegend = false;
 	}
 
   private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) 
@@ -1121,7 +1128,7 @@ namespace WinFormsTest {
 							break;
 						}
 
-						if (((x > b - granica) && (x < b)) || (x <= b - granica))
+						if ((x >= b - granica) && (x <= b))
 						{
 
 
@@ -1150,9 +1157,43 @@ namespace WinFormsTest {
 									h = h / 2.;
 									if (h < hmin) { hmin = h; xmin = x; }
 								}
+							chart1->Series["Series1"]->Points->AddXY(x, v);
+							break;
 						}
 						else
-							break;
+							if (x < b - granica)
+							{
+
+
+
+								if ((abs((v2 - v1) / 15.) <= eps) && (abs((v2 - v1) / 15.) >= eps / pow(2, 17))) { i++; v = v1; dataGridView1->Rows->Add(i, x, v, v2, v - v2, (abs(v2 - v1) / 15.) * 16, h, delenie, udvoenie); v2 = v; }		//kontrol' pogreshnosti
+								else
+									if (abs((v2 - v1) / 15.) < eps / pow(2, 17))
+									{
+										udvoenie += 1;
+										i++;
+										h = h * 2;
+
+										if (h > hmax) { hmax = h; xmax = x; }
+
+										v = v1;
+										dataGridView1->Rows->Add(i, x, v, v2, v - v2, (abs(v2 - v1) / 15.) * 16, h, delenie, udvoenie);
+										v2 = v;
+
+									}
+									else
+									{
+										delenie += 1;
+										v1 = v;
+										v2 = v;
+										x -= h;
+										h = h / 2.;
+										if (h < hmin) { hmin = h; xmin = x; }
+									}
+								
+							}
+							else
+								break;
 
 					};
 
@@ -1163,10 +1204,10 @@ namespace WinFormsTest {
 					if (hmin == 0) { hmin = hmax; xmin = xmax; }
 
 					richTextBox2->Text = "n = " + i + "\n";
-					richTextBox2->Text += "Число удвоений: " + udvoenie + "\n";
-					richTextBox2->Text += "Число делений: " + delenie + "\n";
-					richTextBox2->Text += "Максимальный шаг: " + hmax + ", при x = " + xmax + "\n";
-					richTextBox2->Text += "Минимальный шаг: " + hmin + ", при x = " + xmin + "\n";
+					richTextBox2->Text += "Р§РёСЃР»Рѕ СѓРґРІРѕРµРЅРёР№: " + udvoenie + "\n";
+					richTextBox2->Text += "Р§РёСЃР»Рѕ РґРµР»РµРЅРёР№: " + delenie + "\n";
+					richTextBox2->Text += "РњР°РєСЃРёРјР°Р»СЊРЅС‹Р№ С€Р°Рі: " + hmax + ", РїСЂРё x = " + xmax + "\n";
+					richTextBox2->Text += "РњРёРЅРёРјР°Р»СЊРЅС‹Р№ С€Р°Рі: " + hmin + ", РїСЂРё x = " + xmin + "\n";
 				};
 
 				
@@ -1213,7 +1254,7 @@ namespace WinFormsTest {
 							break;
 						}
 
-						if (((x > b - granica) && (x < b)) || (x <= b - granica))
+						if ((x >= b - granica) && (x <= b)) 
 						{
 
 							if ((abs((v2 - v1) / 15.) <= eps) && (abs((v2 - v1) / 15.) >= eps / pow(2, 17))) { i++; v = v1; dataGridView2->Rows->Add(i, x, v, v2, v - v2, (abs(v2 - v1) / 15.) * 16, h, delenie, udvoenie); v2 = v; }		//kontrol' pogreshnosti
@@ -1240,6 +1281,38 @@ namespace WinFormsTest {
 									if (h < hmin) { hmin = h; xmin = x; }
 
 								}
+							chart1->Series["Series2"]->Points->AddXY(x, v);
+							break;
+						}
+						else
+						if (x < b - granica)
+						{
+
+							if ((abs((v2 - v1) / 15.) <= eps) && (abs((v2 - v1) / 15.) >= eps / pow(2, 17))) { i++; v = v1; dataGridView2->Rows->Add(i, x, v, v2, v - v2, (abs(v2 - v1) / 15.) * 16, h, delenie, udvoenie); v2 = v; }		//kontrol' pogreshnosti
+							else
+								if (abs((v2 - v1) / 15.) < eps / pow(2, 17))
+								{
+									udvoenie += 1;
+									i++;
+									h = h * 2;
+
+									if (h > hmax) { hmax = h; xmax = x - h; }
+
+									v = v1;
+									dataGridView2->Rows->Add(i, x, v, v2, v - v2, (abs(v2 - v1) / 15.) * 16, h, delenie, udvoenie);
+									v2 = v;
+								}
+								else
+								{
+									delenie += 1;
+									v1 = v;
+									v2 = v;
+									x -= h;
+									h = h / 2.;
+									if (h < hmin) { hmin = h; xmin = x; }
+
+								}
+							
 						}
 						else
 							break;
@@ -1253,10 +1326,10 @@ namespace WinFormsTest {
 					if (hmin == 0) { hmin = hmax; xmin = xmax; }
 
 					richTextBox3->Text = "n = " + i + "\n";
-					richTextBox3->Text += "Число удвоений: " + udvoenie + "\n";
-					richTextBox3->Text += "Число делений: " + delenie + "\n";
-					richTextBox3->Text += "Максимальный шаг: " + hmax + ", при x = " + xmax + "\n";
-					richTextBox3->Text += "Минимальный шаг: " + hmin + ", при x = " + xmin + "\n";
+					richTextBox3->Text += "Р§РёСЃР»Рѕ СѓРґРІРѕРµРЅРёР№: " + udvoenie + "\n";
+					richTextBox3->Text += "Р§РёСЃР»Рѕ РґРµР»РµРЅРёР№: " + delenie + "\n";
+					richTextBox3->Text += "РњР°РєСЃРёРјР°Р»СЊРЅС‹Р№ С€Р°Рі: " + hmax + ", РїСЂРё x = " + xmax + "\n";
+					richTextBox3->Text += "РњРёРЅРёРјР°Р»СЊРЅС‹Р№ С€Р°Рі: " + hmin + ", РїСЂРё x = " + xmin + "\n";
 				};
 
 				
@@ -1305,7 +1378,38 @@ namespace WinFormsTest {
 							break;
 						}
 
-						if (((x > b - granica) && (x < b)) || (x <= b - granica))
+						if ((x >= b - granica) && (x <= b))
+						{
+
+							if ((abs((v2 - v1) / 15.) <= eps) && (abs((v2 - v1) / 15.) >= eps / pow(2, 17))) { i++; v = v1; dataGridView1->Rows->Add(i, x, v, v2, v - v2, (abs(v2 - v1) / 15.) * 16, h, delenie, udvoenie); v2 = v; }		//kontrol' pogreshnosti
+							else
+								if (abs((v2 - v1) / 15.) < eps / pow(2, 17))
+								{
+									udvoenie += 1;
+									i++;
+									h = h * 2;
+
+									if (h > hmax) { hmax = h; xmax = x; }
+
+									v = v1;
+									dataGridView1->Rows->Add(i, x, v, v2, v - v2, (abs(v2 - v1) / 15.) * 16, h, delenie, udvoenie);
+									v2 = v;
+								}
+								else
+								{
+									delenie += 1;
+									v1 = v;
+									v2 = v;
+									x -= h;
+									h = h / 2.;
+									if (h < hmin) { hmin = h; xmin = x; }
+								}
+							chart1->Series["Series1"]->Points->AddXY(x, v);
+							break;
+
+						}
+						else
+						if (x < b - granica)
 						{
 
 							if ((abs((v2 - v1) / 15.) <= eps) && (abs((v2 - v1) / 15.) >= eps / pow(2, 17))) { i++; v = v1; dataGridView1->Rows->Add(i, x, v, v2, v - v2, (abs(v2 - v1) / 15.) * 16, h, delenie, udvoenie); v2 = v; }		//kontrol' pogreshnosti
@@ -1345,10 +1449,10 @@ namespace WinFormsTest {
 					if (hmin == 0) { hmin = hmax; xmin = xmax; }
 
 					richTextBox2->Text = "n = " + i + "\n";
-					richTextBox2->Text += "Число удвоений: " + udvoenie + "\n";
-					richTextBox2->Text += "Число делений: " + delenie + "\n";
-					richTextBox2->Text += "Максимальный шаг: " + hmax + ", при x = " + xmax + "\n";
-					richTextBox2->Text += "Минимальный шаг: " + hmin + ", при x = " + xmin + "\n";
+					richTextBox2->Text += "Р§РёСЃР»Рѕ СѓРґРІРѕРµРЅРёР№: " + udvoenie + "\n";
+					richTextBox2->Text += "Р§РёСЃР»Рѕ РґРµР»РµРЅРёР№: " + delenie + "\n";
+					richTextBox2->Text += "РњР°РєСЃРёРјР°Р»СЊРЅС‹Р№ С€Р°Рі: " + hmax + ", РїСЂРё x = " + xmax + "\n";
+					richTextBox2->Text += "РњРёРЅРёРјР°Р»СЊРЅС‹Р№ С€Р°Рі: " + hmin + ", РїСЂРё x = " + xmin + "\n";
 				};
 
 
@@ -1389,7 +1493,37 @@ namespace WinFormsTest {
 							break;
 						}
 
-						if (((x > b - granica) && (x < b)) || (x <= b - granica))
+						if ((x >= b - granica) && (x <= b))
+						{
+
+							if ((abs((v2 - v1) / 15.) <= eps) && (abs((v2 - v1) / 15.) >= eps / pow(2, 17))) { i++; v = v1; dataGridView2->Rows->Add(i, x, v, v2, v - v2, (abs(v2 - v1) / 15.) * 16, h, delenie, udvoenie); v2 = v; }		//kontrol' pogreshnosti
+							else
+								if (abs((v2 - v1) / 15.) < eps / pow(2, 17))
+								{
+									udvoenie += 1;
+									i++;
+									h = h * 2;
+
+									if (h > hmax) { hmax = h; xmax = x; }
+
+									v = v1;
+									dataGridView2->Rows->Add(i, x, v, v2, v - v2, (abs(v2 - v1) / 15.) * 16, h, delenie, udvoenie);
+									v2 = v;
+								}
+								else
+								{
+									delenie += 1;
+									v1 = v;
+									v2 = v;
+									x -= h;
+									h = h / 2.;
+									if (h < hmin) { hmin = h; xmin = x; }
+								}
+							chart1->Series["Series2"]->Points->AddXY(x, v);
+							break;
+						}
+						else
+						if (x < b - granica)
 						{
 
 							if ((abs((v2 - v1) / 15.) <= eps) && (abs((v2 - v1) / 15.) >= eps / pow(2, 17))) { i++; v = v1; dataGridView2->Rows->Add(i, x, v, v2, v - v2, (abs(v2 - v1) / 15.) * 16, h, delenie, udvoenie); v2 = v; }		//kontrol' pogreshnosti
@@ -1428,10 +1562,10 @@ namespace WinFormsTest {
 					if (hmin == 0) { hmin = hmax; xmin = xmax; }
 
 					richTextBox3->Text = "n = " + i + "\n";
-					richTextBox3->Text += "Число удвоений: " + udvoenie + "\n";
-					richTextBox3->Text += "Число делений: " + delenie + "\n";
-					richTextBox3->Text += "Максимальный шаг: " + hmax + ", при x = " + xmax + "\n";
-					richTextBox3->Text += "Минимальный шаг: " + hmin + ", при x = " + xmin + "\n";
+					richTextBox3->Text += "Р§РёСЃР»Рѕ СѓРґРІРѕРµРЅРёР№: " + udvoenie + "\n";
+					richTextBox3->Text += "Р§РёСЃР»Рѕ РґРµР»РµРЅРёР№: " + delenie + "\n";
+					richTextBox3->Text += "РњР°РєСЃРёРјР°Р»СЊРЅС‹Р№ С€Р°Рі: " + hmax + ", РїСЂРё x = " + xmax + "\n";
+					richTextBox3->Text += "РњРёРЅРёРјР°Р»СЊРЅС‹Р№ С€Р°Рі: " + hmin + ", РїСЂРё x = " + xmin + "\n";
 				};
 
 
@@ -1472,7 +1606,38 @@ namespace WinFormsTest {
 							break;
 						}
 
-						if (((x > b - granica) && (x < b)) || (x <= b - granica))
+						if ((x >= b - granica) && (x <= b))
+						{
+
+							if ((abs((v2 - v1) / 15.) <= eps) && (abs((v2 - v1) / 15.) >= eps / pow(2, 17))) { i++; v = v1; dataGridView3->Rows->Add(i, x, v, v2, v - v2, (abs(v2 - v1) / 15.) * 16, h, delenie, udvoenie); v2 = v; }		//kontrol' pogreshnosti
+							else
+								if (abs((v2 - v1) / 15.) < eps / pow(2, 17))
+								{
+									udvoenie += 1;
+									i++;
+									h = h * 2;
+
+									if (h > hmax) { hmax = h; xmax = x; }
+
+									v = v1;
+									dataGridView3->Rows->Add(i, x, v, v2, v - v2, (abs(v2 - v1) / 15.) * 16, h, delenie, udvoenie);
+									v2 = v;
+								}
+								else
+								{
+									delenie += 1;
+									v1 = v;
+									v2 = v;
+									x -= h;
+									h = h / 2.;
+									if (h < hmin) { hmin = h; xmin = x; }
+								}
+							chart1->Series["Series3"]->Points->AddXY(x, v);
+							break;
+
+						}
+						else
+						if (x < b - granica)
 						{
 
 							if ((abs((v2 - v1) / 15.) <= eps) && (abs((v2 - v1) / 15.) >= eps / pow(2, 17))) { i++; v = v1; dataGridView3->Rows->Add(i, x, v, v2, v - v2, (abs(v2 - v1) / 15.) * 16, h, delenie, udvoenie); v2 = v; }		//kontrol' pogreshnosti
@@ -1500,7 +1665,9 @@ namespace WinFormsTest {
 								}
 
 						}
-						break;
+						else
+							break;
+						
 
 					};
 
@@ -1511,10 +1678,10 @@ namespace WinFormsTest {
 					if (hmin == 0) { hmin = hmax; xmin = xmax; }
 
 					richTextBox4->Text = "n = " + i + "\n";
-					richTextBox4->Text += "Число удвоений: " + udvoenie + "\n";
-					richTextBox4->Text += "Число делений: " + delenie + "\n";
-					richTextBox4->Text += "Максимальный шаг: " + hmax + ", при x = " + xmax + "\n";
-					richTextBox4->Text += "Минимальный шаг: " + hmin + ", при x = " + xmin + "\n";
+					richTextBox4->Text += "Р§РёСЃР»Рѕ СѓРґРІРѕРµРЅРёР№: " + udvoenie + "\n";
+					richTextBox4->Text += "Р§РёСЃР»Рѕ РґРµР»РµРЅРёР№: " + delenie + "\n";
+					richTextBox4->Text += "РњР°РєСЃРёРјР°Р»СЊРЅС‹Р№ С€Р°Рі: " + hmax + ", РїСЂРё x = " + xmax + "\n";
+					richTextBox4->Text += "РњРёРЅРёРјР°Р»СЊРЅС‹Р№ С€Р°Рі: " + hmin + ", РїСЂРё x = " + xmin + "\n";
 				};
 
 			}
@@ -1574,7 +1741,7 @@ namespace WinFormsTest {
 								break;
 							}
 
-							if (((x > b - granica) && (x < b)) || (x <= b - granica))
+							if ((x >= b - granica) && (x <= b))
 							{
 
 								if (((abs((v2[0] - v1[0]) / 15.) <= eps) && (abs((v2[0] - v1[0]) / 15.) >= eps / pow(2, 17))) || ((abs((v2[1] - v1[1]) / 15.) <= eps) && (abs((v2[1] - v1[1]) / 15.) >= eps / pow(2, 17))))
@@ -1608,8 +1775,48 @@ namespace WinFormsTest {
 										delenie += 1;
 										if (h < hmin) { hmin = h; xmin = x; }
 									};
-
+								chart1->Series["Series1"]->Points->AddXY(x, v0[0]);
+								chart2->Series["Series1"]->Points->AddXY(v0[0], v0[1]);
+								chart3->Series["Series1"]->Points->AddXY(x, v0[1]);
+								break;
 							}
+							else
+								if (x < b - granica)
+								{
+
+									if (((abs((v2[0] - v1[0]) / 15.) <= eps) && (abs((v2[0] - v1[0]) / 15.) >= eps / pow(2, 17))) || ((abs((v2[1] - v1[1]) / 15.) <= eps) && (abs((v2[1] - v1[1]) / 15.) >= eps / pow(2, 17))))
+									{
+										i++;
+										v0[0] = v1[0];
+										v0[1] = v1[1];
+										v2[0] = v0[0];
+										v2[1] = v0[1];
+									}		//kontrol' pogreshnosti
+									else
+										if ((abs((v2[0] - v1[0]) / 15.) < eps / pow(2, 17)) || (abs((v2[1] - v1[1]) / 15.) < eps / pow(2, 17)))
+										{
+											i++;
+											h = h * 2;
+											v0[0] = v1[0];
+											v0[1] = v1[1];
+											v2[0] = v0[0];
+											v2[1] = v0[1];
+											udvoenie += 1;
+											if (h > hmax) { hmax = h; xmax = x; }
+										}
+										else
+										{
+											v1[0] = v0[0];
+											v1[1] = v0[1];
+											v2[0] = v0[0];
+											v2[1] = v0[1];
+											x -= h;
+											h = h / 2.;
+											delenie += 1;
+											if (h < hmin) { hmin = h; xmin = x; }
+										};
+
+								}
 
 						};
 
@@ -1620,10 +1827,10 @@ namespace WinFormsTest {
 						if (hmin == 0) { hmin = hmax; xmin = xmax; }
 
 						richTextBox2->Text = "n = " + i + "\n";
-						richTextBox2->Text += "Число удвоений: " + udvoenie + "\n";
-						richTextBox2->Text += "Число делений: " + delenie + "\n";
-						richTextBox2->Text += "Максимальный шаг: " + hmax + ", при x = " + xmax + "\n";
-						richTextBox2->Text += "Минимальный шаг: " + hmin + ", при x = " + xmin + "\n";
+						richTextBox2->Text += "Р§РёСЃР»Рѕ СѓРґРІРѕРµРЅРёР№: " + udvoenie + "\n";
+						richTextBox2->Text += "Р§РёСЃР»Рѕ РґРµР»РµРЅРёР№: " + delenie + "\n";
+						richTextBox2->Text += "РњР°РєСЃРёРјР°Р»СЊРЅС‹Р№ С€Р°Рі: " + hmax + ", РїСЂРё x = " + xmax + "\n";
+						richTextBox2->Text += "РњРёРЅРёРјР°Р»СЊРЅС‹Р№ С€Р°Рі: " + hmin + ", РїСЂРё x = " + xmin + "\n";
 					};
 
 
@@ -1660,7 +1867,7 @@ private: System::Void comboBox1_SelectedIndexChanged(System::Object^ sender, Sys
 		label7->Hide();
 		label8->Hide();
 		label9->Hide();
-		richTextBox1->Text = "Тестовая задача:\n" + "du/dx = -1 * 3u/2\n" + "U(0) = U0";
+		richTextBox1->Text = "РўРµСЃС‚РѕРІР°СЏ Р·Р°РґР°С‡Р°:\n" + "du/dx = -1 * 3u/2\n" + "U(0) = U0";
 		dataGridView2->Rows->Clear();
 		dataGridView1->Rows->Clear();
 		tabPage4->Text = "U0 = " + checkBox1->Text;
@@ -1668,6 +1875,11 @@ private: System::Void comboBox1_SelectedIndexChanged(System::Object^ sender, Sys
 		tabControl2->TabPages->Remove(tabPage6);
 		tabControl2->TabPages->Remove(tabPage5);
 		tabControl2->TabPages->Remove(tabPage4);
+
+	
+		chart1->Series[0]->LegendText = "U0 = " + checkBox1->Text;
+		chart1->Series[1]->LegendText = "U0 = " + checkBox2->Text;
+		chart1->Series[2]->IsVisibleInLegend = false;
 	}
 
 	if (comboBox1->SelectedIndex == 1)
@@ -1689,7 +1901,7 @@ private: System::Void comboBox1_SelectedIndexChanged(System::Object^ sender, Sys
 		label7->Hide();
 		label8->Hide();
 		label9->Hide();
-		richTextBox1->Text = "Основная задача 1:\n" + "du/dx = u^2 / (1+x^2)^(1/3) + u - u^3 * sin(10x)\n" + "U(0) = U0";
+		richTextBox1->Text = "РћСЃРЅРѕРІРЅР°СЏ Р·Р°РґР°С‡Р° 1:\n" + "du/dx = u^2 / (1+x^2)^(1/3) + u - u^3 * sin(10x)\n" + "U(0) = U0";
 		dataGridView2->Rows->Clear();
 		dataGridView1->Rows->Clear();
 		tabPage4->Text = "U0 = " + checkBox1->Text;
@@ -1698,6 +1910,10 @@ private: System::Void comboBox1_SelectedIndexChanged(System::Object^ sender, Sys
 		tabControl2->TabPages->Remove(tabPage6);
 		tabControl2->TabPages->Remove(tabPage5);
 		tabControl2->TabPages->Remove(tabPage4);
+		chart1->Series[0]->LegendText = "U0 = " + checkBox1->Text;
+		chart1->Series[1]->LegendText = "U0 = " + checkBox2->Text;
+		chart1->Series[2]->LegendText = "U0 = " + checkBox3->Text;
+		chart1->Series[2]->IsVisibleInLegend = true;
 	}
 
 	if (comboBox1->SelectedIndex == 2)
@@ -1724,8 +1940,13 @@ private: System::Void comboBox1_SelectedIndexChanged(System::Object^ sender, Sys
 		label7->Show();
 		label8->Show();
 		label9->Show();
-		richTextBox1->Text = "Основная задача 2:\n" + "d^2u/dx^2 + a(du/dx)^2 + bu = 0\n" + "U(0) = U0\n" + "U'(0) = U'0";
+		richTextBox1->Text = "РћСЃРЅРѕРІРЅР°СЏ Р·Р°РґР°С‡Р° 2:\n" + "d^2u/dx^2 + a(du/dx)^2 + bu = 0\n" + "U(0) = U0\n" + "U'(0) = U'0";
 
+
+		chart1->Series[0]->LegendText = "";
+		chart1->Series[1]->LegendText = "";
+		chart1->Series[2]->LegendText = "";
+		chart1->Series[2]->IsVisibleInLegend = true;
 	}
 
 }
