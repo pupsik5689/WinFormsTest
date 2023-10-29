@@ -10,7 +10,7 @@ void main(array<String^>^ arg)
   Application::EnableVisualStyles();
   Application::SetCompatibleTextRenderingDefault(false);
 
-  WinFormsTest::MyForm form; //WinFormsTest - имя вашего проекта
+  WinFormsTest::MyForm form; //WinFormsTest - РёРјСЏ РІР°С€РµРіРѕ РїСЂРѕРµРєС‚Р°
   Application::Run(% form);
 }
 
